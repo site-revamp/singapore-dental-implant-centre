@@ -1326,6 +1326,43 @@ details > div {
     transition: none !important;
   }
 }
+  @media (max-width: 700px) {
+  #treatments .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 20px;
+  }
+
+  #treatments .service {
+    padding: 22px 0;
+    background: transparent;
+  }
+
+  #treatments .service h3 {
+    font-size: 23px;
+    line-height: 1.3;
+  }
+
+  #treatments .service p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+  }
+
+  #treatments .service a {
+    margin-top: auto;
+    min-height: 44px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  #treatments .service h3,
+  #treatments .service p,
+  #treatments .service a {
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+  }
+}
 </style>
 
 <script>
